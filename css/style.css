@@ -1,0 +1,48 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.contenedor {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.presentacion {
+    text-align: left;
+}
+
+.integrantes, p {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.integrante {
+    margin: auto;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+img {
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+
+
+@media (min-width: 768px) {
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .integrantes {
+        flex: 0 0 calc(33.3% - 1rem);
+    }
+}
