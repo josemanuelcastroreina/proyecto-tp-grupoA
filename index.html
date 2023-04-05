@@ -27,7 +27,7 @@
                 </ul>
             </nav>
         </div>
-        <img src="imagenes/Principal.png" alt="">
+        <img src="imagenes/Principal.png" alt="Imgen principal">
     </header>
 
     <main>
@@ -41,6 +41,43 @@
             aqui va la tercera imagen con un parrafo
         </section>
     </main>
+    
+    <section>
+        <h2>Contacto</h2>
+
+        <form class="formulario" netlify>
+            <fieldset>
+                <legend>Contactános llenando todos los campos</legend>
+
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre</label>
+                        <input class="input-text" type="text" placeholder="Tu Nombre">
+                    </div>
+
+                    <div class="campo">
+                        <label>Teléfono</label>
+                        <input class="input-text" type="tel" placeholder="Tu Teléfono">
+                    </div>
+
+                    <div class="campo">
+                        <label>Correo</label>
+                        <input class="input-text" type="email" placeholder="Tu Email">
+                    </div>
+            
+                    <div class="campo">
+                        <label>Mensaje</label>
+                        <textarea class="input-text" placeholder=""></textarea>
+                    </div>
+                </div> <!-- .contenedor-campos -->
+
+                <div class="alinear-derecha flex">
+                    <input class="boton w-sm-100" type="submit" onclick="enviar" value="Enviar">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    
         
     <footer>
         pie de página
