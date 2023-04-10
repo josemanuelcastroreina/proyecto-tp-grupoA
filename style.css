@@ -1,11 +1,10 @@
-h1 {
+h1, h2 {
     font-family: 'Roboto', sans-serif;
-}
-
-h2 {
-    font-family: 'Roboto', sans-serif;  
+    color: #0054A0;
+    font: size 48px;  
 }
 
 p {
     font-family: 'Roboto Slab', serif;
+    
 }
