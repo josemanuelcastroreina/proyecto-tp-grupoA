@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: ;
+}
+
 h1, h2 {
     font-family: 'Roboto', sans-serif;
     color: #0054A0;
@@ -9,10 +15,39 @@ p {
     
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 /* HEADER*/
 .contenedor {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+    padding: 30px;
+}
+
+.navegacion-principal ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navegacion-principal a {
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 20px;
 }
 
 /*SECCIÓN VEHICULOS*/
