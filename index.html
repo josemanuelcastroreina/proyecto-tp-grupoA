@@ -12,9 +12,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&family=Roboto:wght@300;400;500;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&family=Roboto:wght@300;400;500;700&display=swap"rel="stylesheet">
 
     <title>Proyecto A</title>
 </head>
@@ -22,7 +20,7 @@
     <header>
         <div class="row">
             <div class="logo">
-                <img src="imagenes/LogoTAG.png" alt="">
+                <img src="imagenes/LogoTAG.png" alt="logo">
             </div>
             <nav>
                 <ul>
@@ -36,11 +34,11 @@
                 </ul>
             </nav>
         </div>
-        <img src="imagenes/Principal.png" alt="Imgen principal">
+        <img src="imagenes/Principal.png" alt="Imagen principal">
     </header>
 
-    <main>
-        <section>
+    <main class="contenedor">
+        <section class="Vehiculo">
             
             <img src="imagenes/Vehiculos.png" alt="disfruta tu viaje">
             <br>
@@ -55,7 +53,7 @@
             </p>
 
         </section>
-        <section>
+        <section class="personas">
             
             <img src="imagenes/Personas.png" alt="Pareja de jubilados">
             <br>
@@ -66,7 +64,7 @@
                             de Salud u Obra Social no puedan cubrirte.</strong></p>
         </section>      <!--la etiq p no puede contener a la etiq h2-->
         
-        <section>
+        <section class="hogares">
             
             <img src="imagenes/Hogares.png" alt="Relajate nosotros te protegemos">
             <br>
@@ -81,7 +79,7 @@
             </p>
         </section>
 
-        <section>  
+        <section class="agricolas">  
             <img src="imagenes/Agricola.png" alt="Campo sembrado de trigo">
             <br>
                 <h2>Seguro Agrícola</h2>
@@ -94,41 +92,41 @@
 
     </main>
     
-    <section>
+    <aside class="contacto">
         <h2>Contacto</h2>
 
-        <form class="formulario" netlify>
+        <form class="formulario">
             <fieldset>
                 <legend>Contactános llenando todos los campos</legend>
 
-                <div class="contenedor-campos">
-                    <div class="campo">
+                <div>
+                    <div>
                         <label>Nombre</label>
                         <input class="input-text" type="text" placeholder="Tu Nombre">
                     </div>
 
-                    <div class="campo">
+                    <div>
                         <label>Teléfono</label>
                         <input class="input-text" type="tel" placeholder="Tu Teléfono">
                     </div>
 
-                    <div class="campo">
+                    <div>
                         <label>Correo</label>
                         <input class="input-text" type="email" placeholder="Tu Email">
                     </div>
             
-                    <div class="campo">
+                    <div>
                         <label>Mensaje</label>
                         <textarea class="input-text" placeholder=""></textarea>
                     </div>
-                </div> <!-- .contenedor-campos -->
+                </div> 
 
-                <div class="alinear-derecha flex">
-                    <input class="boton w-sm-100" type="submit" onclick="enviar" value="Enviar">
+                <div>
+                    <button type="submit">Enviar</button>
                 </div>
             </fieldset>
         </form>
-    </section>
+    </aside>
     
         
     <footer>
