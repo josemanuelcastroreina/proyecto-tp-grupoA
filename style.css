@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: ;
+    box-sizing: border-box;
 }
 
 h1, h2 {
@@ -27,27 +27,30 @@ img {
 }
 
 .row {
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    background-color: #0054A0;
 }
 
 .logo img {
-    width: 200px;
-    padding: 30px;
+    max-width: 20rem;
+    background-color: white;
+    padding: 10px;
 }
 
 .navegacion-principal ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    
+    gap: 1rem;
 }
 
 .navegacion-principal a {
     text-decoration: none;
-    padding-right: 20px;
+    padding-right: 10px;
     font-size: 20px;
+    color: white;
 }
 
 /*SECCIÓN VEHICULOS*/
