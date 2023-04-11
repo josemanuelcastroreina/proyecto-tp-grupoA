@@ -10,7 +10,10 @@ p {
 }
 
 /* HEADER*/
-
+.contenedor {
+    width: 1200px;
+    margin: 0 auto;
+}
 
 /*SECCIÓN VEHICULOS*/
 
