@@ -74,3 +74,13 @@ img {
 
 
 /*FOOTER*/
+.redes {
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.instagram p {
+    text-align: center;
+}
