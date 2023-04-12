@@ -13,11 +13,13 @@ h1, h2 {
     font-family: 'Roboto', sans-serif;
     color: #0054A0;
     font: size 48px;  
+    padding-top: 10px;
+
 }
 
 p {
     font-family: 'Roboto Slab', serif;
-    
+    padding-top: 10px;
 }
 
 img {
@@ -34,6 +36,7 @@ section, aside, footer {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 
 .row {
     align-items: center;
@@ -106,6 +109,10 @@ button {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.red {
+
 }
 
 footer p {
