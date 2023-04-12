@@ -53,6 +53,11 @@ img {
     color: white;
 }
 
+/*Scroll suave*/
+html {
+    scroll-behavior: smooth;
+}
+
 /*SECCIÓN VEHICULOS*/
 
 
