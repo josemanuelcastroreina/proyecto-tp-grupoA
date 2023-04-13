@@ -31,8 +31,8 @@ img {
     width: 100%; 
 }
 
-section, aside, footer {
-    padding: 30px 0;
+section, footer {
+    padding: 20px 0;
 }
 
 /* HEADER*/
@@ -108,8 +108,12 @@ section, aside, footer {
         width: 300px;  
     }
 }
+
 .imagenes-fotos p {
     font-size: 1rem;
+}
+.seguros {
+    padding-bottom: 30px;
 }
 
 /*SECCIÓN CONTACTOS*/

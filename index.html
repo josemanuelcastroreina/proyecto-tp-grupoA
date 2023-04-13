@@ -46,9 +46,9 @@
                 <h2> Seguro de Vehículos</h2> 
             </div>
                
-            <p>Tenemos los mejores planes para tu vehículo, 
-            diseñados a medida y con la mejor cobertura.
-            Te cuidamos a donde vayas, para que vos y tu familia 
+            <p>Tenemos los mejores planes para tu vehículo, <br>
+            diseñados a medida y con la mejor cobertura. <br>
+            Te cuidamos a donde vayas, para que vos y tu familia <br>
             puedan disfrutar de los viajes sin preocupaciones.</p>
                 
         </section>
@@ -61,9 +61,9 @@
                 <h2> Seguro de Salud y Vida</h2> 
             </div>
 
-            <p> Sentirte seguro ante cualquier eventualidad 
-                es muy importante para vos y tus seres queridos.
-                Te protegemos ante cualquier circunstancia que tu Prepaga
+            <p> Sentirte seguro ante cualquier eventualidad <br>
+                es muy importante para vos y tus seres queridos. <br>
+                Te protegemos ante cualquier circunstancia que <br>tu Prepaga
                 de Salud u Obra Social no puedan cubrirte.
             </p>
         </section>      
@@ -76,9 +76,9 @@
                 <img src="imagenes/IconoSeguroHogar.png" alt="">
                 <h2> Seguro de Hogar</h2> 
             </div>             
-            <p> Cada Hogar es diferente y merece un seguro a medida.
-                Viví una vida relajada y libre de preocupaciones.
-                Nosotros te ofrecemos seguridad y respaldo ante cualquier 
+            <p> Cada Hogar es diferente y merece un seguro a medida. <br>
+                Viví una vida relajada y libre de preocupaciones. <br>
+                Nosotros te ofrecemos seguridad y respaldo ante <br> cualquier 
                 imprevisto que pueda sufrir tu propiedad.
             </p>
         </section>
@@ -90,21 +90,25 @@
                 <img src="imagenes/IconoSeguroAgricola.png" alt="">
                 <h2> Seguro Agricola</h2> 
             </div>
-                <p> Sabemos que la actividad agraria 
-                    tiene sus particularidades y necesidades.
-                    Te acompañamos durante todo el ciclo de cultivo 
-                    brindándote asesoramiento, para reducir los riesgos 
-                    y que tomes las mejores decisiones.</p>
+                <p>
+                    Sabemos que la actividad agraria <br>
+                    tiene sus particularidades y necesidades. <br>
+                    Te acompañamos durante todo el ciclo de cultivo <br>
+                    brindándote asesoramiento, para reducir los riesgos <br>
+                    y que tomes las mejores decisiones.
+                </p>
         </section>
 
         <section class="mapa" id="sucursales">  
             <img src="imagenes/Mapa.png" alt="Mapa con las Sucursales">
-        
+        </section>
+
+        <section>
             <div class="seguros">
                     <img src="imagenes/IsoTAG.png" alt="">
                     <h2> Nuestras Sucursales</h2> 
                 </div>
-                <p> Acercate a tu sucursal más cercana y descubrí
+                <p> Acercate a tu sucursal más cercana y descubrí <br>
                     las coberturas y servicios que tenemos para vos.
                 </p>
             </div>
@@ -115,7 +119,7 @@
                     <p>Av. Figma 1921 S.A de Arredondo</p>
                     <p>greco@tag.com.ar</p>
                     <img src="imagenes/Greco.png" alt="Guille">
-                    <p>Juan Manuel Greko | Asesor de Seguros</p>
+                    <p>Juan Manuel Greco | Asesor de Seguros</p>
                 </div>
                 <div class="integrantes">
                     <h2>02 SAN LUIS</h2>
@@ -145,7 +149,7 @@
 
     </main>
     
-    <h1>Contacto</h1>
+
     <section class="contacto contenedor" id="contacto">       
         <div class="contactanos"> 
             <img src="imagenes/Contacto.png" alt="Mujer atendiendo el teléfono">   
@@ -184,43 +188,45 @@
         </div>
         
     </section>
-    
-        
+
+    <!--aqui va el formulario dentro de esta sección-->
+    <section class="contenedor">
+         <form class="formulario" netlify>
+                <fieldset>
+                    <legend>Contactános llenando todos los campos</legend>
+
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Tu Nombre">
+                        </div>
+
+                        <div class="campo">
+                            <label>Teléfono</label>
+                            <input class="input-text" type="tel" placeholder="Tu Teléfono">
+                        </div>
+
+                        <div class="campo">
+                            <label>Correo</label>
+                            <input class="input-text" type="email" placeholder="Tu Email">
+                        </div>
+                
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="input-text" placeholder=""></textarea>
+                        </div>
+                    </div> <!-- .contenedor-campos -->
+
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-sm-100" type="submit" onclick="enviar" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+    </section>
+    <!------------------------------------------------>
+
     <footer>
-        <div class="redes contenedor">
-
-            <section class="red-social">
-                <div class="icono">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <rect x="4" y="4" width="16" height="16" rx="4" />
-                        <circle cx="12" cy="12" r="3" />
-                        <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
-                      </svg>
-                </div>
-                <p>@theagroupseguros</p>
-            </section>
-
-            <section class="red-social">
-                <div class="icono">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
-                    </svg>
-                </div>
-                <p>@theagroupseguros</p>
-            </section>
-
-            <section class="red-social">
-                <div class="icono">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <rect x="3" y="5" width="18" height="14" rx="2" />
-                        <polyline points="3 7 12 13 21 7" />
-                      </svg>
-                </div>
-                <p>hola@theagroupseguros.com</p>
-        </div>
+        
         <div class="pie">
             <section class="tag contenedor">
                 <div class="footer-logo">
