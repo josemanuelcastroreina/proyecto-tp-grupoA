@@ -14,19 +14,21 @@ html {
 h1, h2 {
     font-family: 'Roboto', sans-serif;
     color: #0054A0;
-    font: size 48px;  
+    font-size: 2rem; 
     padding-top: 10px;
-
+    text-align: center;
+}
+p {
+    font-size: 1rem;
 }
 
 p {
     font-family: 'Roboto Slab', serif;
-    padding-top: 10px;
+    font-size: 1.3rem;
 }
 
 img {
-    width: 100%;
-    
+    width: 100%; 
 }
 
 section, aside, footer {
@@ -52,15 +54,14 @@ section, aside, footer {
     padding: 10px;
 }
 
-.navegacion-principal ul {
+.navegacion-principal {
+    padding-right: 20px;
+}
 
+.navegacion-principal ul {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-}
-
-.navegacion-principal ul li a:hover {
-    background: #0b76a6;   
 }
 
 @media (min-width: 768px) {
@@ -72,10 +73,19 @@ section, aside, footer {
 
 .navegacion-principal a {
     padding-right: 10px;
-    font-size: 15px;
+    font-size: 1rem;
     color: white;
 }
 
+/*MAIN*/
+.seguros img {
+    width: 60px;
+}
+.seguros {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
 
 /*SECCIÓN VEHICULOS*/
 
@@ -91,28 +101,62 @@ section, aside, footer {
 
 /*SECCIÓN AGRICOLAS*/
 
-
-
-/*SECCIÓN CONTACTOS*/
-.contacto {
-    width: 600px;
-    margin: auto;
-    font-size: 20px;
+/*SUCURSALES*/
+.separar {
+    padding: 10px 0;
 }
-.contacto h2 {
+.sucursal, .imagenes-fotos h2, p {
     text-align: center;
 }
 
-button {
-    font-size: 20px;
-    padding: 5px 20px;
+.imagenes-fotos, .integrantes img {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 10px 0;
+    width: 300px;
+    
 }
+.imagenes-fotos p {
+    font-size: 1rem;
+}
+
+
+/*SECCIÓN CONTACTOS*/
+.contactanos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contactanos img {
+    width: 450px;   
+}
+.desarrollo img {
+    width: 60px;
+}
+.general {
+    background-color: #0054A0;
+    width: 500px;
+}
+.general h2 {
+    color: white;
+}
+.desarrollo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 30px;
+}
+.desarrollo p {
+    padding: 10px;
+}
+
 
 /*FOOTER*/
 .tag, .redes {
     display: flex;
     justify-content: space-between;
-    font-size: 20px;
+    font-size: 1rem;
 }
 .tag {
     align-items: center;
@@ -130,7 +174,7 @@ button {
 
 footer p {
     text-align: center;
-    font-size: 20px;
+    font-size: 1.3rem;
 }
 
 .parrafo-fin {
