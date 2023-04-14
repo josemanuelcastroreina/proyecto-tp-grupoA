@@ -14,6 +14,8 @@ html {
 h1, h2 {
     font-family: 'Roboto', sans-serif;
     color: #0054A0;
+    font-size: 2rem; 
+    padding-top: 10px;
     text-align: center;
 }
 p {
@@ -22,15 +24,15 @@ p {
 
 p {
     font-family: 'Roboto Slab', serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 img {
-    max-width: 100%;
+    width: 100%; 
 }
 
 section, footer {
-    padding: 20px 0;
+    padding: 70px 0;
 }
 
 /* HEADER*/
@@ -43,15 +45,20 @@ section, footer {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    background-color: #0054A0;
+    background-color: white;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-shadow: 1px 1px 10px #1f4f7b;
 }
 
 .logo img {
-    width: 20rem;
+    max-width: 20rem;
     background-color: white;
-    padding: 10px;
+    padding: 5px;
 }
-
 
 @media (min-width: 768px) {
     .navegacion-principal ul {
@@ -62,15 +69,31 @@ section, footer {
 }
 
 .navegacion-principal a {
-    padding: 10px;
-    font-size: 1rem;
-    color: white;
+    display: block;
+    padding: 5px;
+    color: #0054A0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    transition: all 0.4s;
+}
+
+.navegacion-principal a:hover {
+    color: #4BC9E8;
+    background-color: #0054A0;
 }
 
 /*MAIN*/
-
+.seguros img {
+    width: 60px;
+}
+.seguros {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
 
 /*SECCIÓN VEHICULOS*/
+
 
 
 /*SECCIÓN PERSONAS*/
@@ -84,47 +107,59 @@ section, footer {
 /*SECCIÓN AGRICOLAS*/
 
 /*SUCURSALES*/
+.separar {
+    padding: 10px 0;
+}
+.sucursal, .imagenes-fotos h2, p {
+    text-align: center;
+}
 @media (min-width: 768px) {
-    .imagenes-fotos {
+    .imagenes-fotos, .integrantes img {
         display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 10px 0;
+        width: 300px;  
     }
 }
 
+.imagenes-fotos p {
+    font-size: 1rem;
+}
 .seguros {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-.seguros img {
-    width: 50px;
-}
-.parrafo-desarrollo {
-    text-align: center;
-    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 /*SECCIÓN CONTACTOS*/
-.contacto {
-    display: flex;
-    justify-content: flex-start;
-    gap: 10rem;
-    align-items: center;
-    padding-top: 10px;
+@media (min-width: 768px) {
+    .contactanos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 .contactanos img {
     width: 450px;   
 }
-.row-icono {
-    display: flex;
-    justify-content: start;
-    align-items: center;
+.desarrollo img {
+    width: 60px;
 }
-.row-icono img {
-    width: 80px;
+.general {
+    background-color: #0054A0;
+    width: 500px;
+}
+.general h2 {
+    color: white;
+}
+.desarrollo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 30px;
+}
+.desarrollo p {
     padding: 10px;
 }
-
 
 /*FOOTER*/
 @media (min-width: 768px) {
