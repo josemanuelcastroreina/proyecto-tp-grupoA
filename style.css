@@ -7,6 +7,8 @@
 }
 
 /*Scroll suave*/
+
+
 html {
     scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
@@ -39,7 +41,7 @@ section, footer {
 
 .row {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -51,19 +53,39 @@ section, footer {
     padding: 5px;
 }
 
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .row{
+        flex-direction: row;
+        padding-right: 10px;
+    }
+}
+.navegacion-principal ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 10px;
+}
 
 @media (min-width: 768px) {
     .navegacion-principal ul {
-        display: flex;
         flex-direction: row;
-        justify-content: space-between;
     }
+}
+
+.navegacion-principal a {
+    color: white;
+    padding: 10px;
 }
 
 .navegacion-principal a:hover {
     color: #4BC9E8;
 }
-
+ 
 /*MAIN*/
 
 /*SECCIÓN VEHICULOS*/
