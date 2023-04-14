@@ -27,7 +27,7 @@
                     <li><a href="#personas">PERSONAS</a></li>
                     <li><a href="#hogares">HOGARES</a></li>
                     <li><a href="#agricolas">AGRICOLAS</a></li>
-                    <li><a href="#">COTIZADOR</a></li>
+                    <li><a href="#cotizador">COTIZADOR</a></li>
                     <li><a href="#sucursales"><span>SUCURSALES</span></a></li>
                     <li><a href="#contacto"><span>CONTACTO</span></a></li>
                 </ul>
@@ -158,7 +158,7 @@
                 <div class="general">
                     <h2>Conectate a través de nuestras redes</h2>
                 </div>
-                
+                                
 
                 <div class="desarrollo">
                     <img src="imagenes/IcoTEL.png" alt="Icono teléfono">
@@ -190,25 +190,45 @@
     </section>
 
     <!--aqui va el formulario dentro de esta sección-->
-    <section class="contenedor">
+    <section class="contenedor" id="cotizador">
          <form class="formulario" netlify>
                 <fieldset>
-                    <legend>Contactános llenando todos los campos</legend>
+                    <legend>Completa con tus datos del vehiculo para cotizar</legend>
 
                     <div class="contenedor-campos">
                         <div class="campo">
-                            <label>Nombre</label>
-                            <input class="input-text" type="text" placeholder="Tu Nombre">
+                            <label>Patente del vehiculo</label>
+                            <input class="input-text" type="text" placeholder="PATENTE">
                         </div>
+
+                        <div class="campo">
+                            <label>Modelo</label>
+                            <input class="input-text" type="text" placeholder="MODELO">
+                        </div>
+
+                        <div class="campo">
+                            <label>Año</label>
+                            <input class="input-text" type="text" placeholder="AÑO">
+                        </div>
+                        
+                        <div class="campo">
+                            <label>Tiene GNC</label>
+                            <input class="input-text" type="text" placeholder="SI O NO">
+                        </div>
+
+                        <div class="campo">
+                            <label>Código postal o nombre de la localidad</label>
+                            <input class="input-text" type="text" placeholder="LOCALIDAD">
+                        <div>
 
                         <div class="campo">
                             <label>Teléfono</label>
-                            <input class="input-text" type="tel" placeholder="Tu Teléfono">
+                            <input class="input-text" type="tel" placeholder="TELÉFONO">
                         </div>
 
                         <div class="campo">
-                            <label>Correo</label>
-                            <input class="input-text" type="email" placeholder="Tu Email">
+                            <label>Correo electrónico</label>
+                            <input class="input-text" type="email" placeholder="EMAIL">
                         </div>
                 
                         <div class="campo">
