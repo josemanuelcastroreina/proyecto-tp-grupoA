@@ -14,8 +14,6 @@ html {
 h1, h2 {
     font-family: 'Roboto', sans-serif;
     color: #0054A0;
-    font-size: 2rem; 
-    padding-top: 10px;
     text-align: center;
 }
 p {
@@ -24,11 +22,11 @@ p {
 
 p {
     font-family: 'Roboto Slab', serif;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 img {
-    width: 100%; 
+    max-width: 100%;
 }
 
 section, footer {
@@ -49,10 +47,11 @@ section, footer {
 }
 
 .logo img {
-    max-width: 20rem;
+    width: 20rem;
     background-color: white;
     padding: 10px;
 }
+
 
 @media (min-width: 768px) {
     .navegacion-principal ul {
@@ -69,17 +68,9 @@ section, footer {
 }
 
 /*MAIN*/
-.seguros img {
-    width: 60px;
-}
-.seguros {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
+
 
 /*SECCIÓN VEHICULOS*/
-
 
 
 /*SECCIÓN PERSONAS*/
@@ -93,59 +84,47 @@ section, footer {
 /*SECCIÓN AGRICOLAS*/
 
 /*SUCURSALES*/
-.separar {
-    padding: 10px 0;
-}
-.sucursal, .imagenes-fotos h2, p {
-    text-align: center;
-}
 @media (min-width: 768px) {
-    .imagenes-fotos, .integrantes img {
+    .imagenes-fotos {
         display: flex;
-        justify-content: space-between;
-        gap: 1rem;
-        padding: 10px 0;
-        width: 300px;  
     }
 }
 
-.imagenes-fotos p {
-    font-size: 1rem;
-}
 .seguros {
-    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.seguros img {
+    width: 50px;
+}
+.parrafo-desarrollo {
+    text-align: center;
+    padding-top: 10px;
 }
 
 /*SECCIÓN CONTACTOS*/
-@media (min-width: 768px) {
-    .contactanos {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+.contacto {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10rem;
+    align-items: center;
+    padding-top: 10px;
 }
 .contactanos img {
     width: 450px;   
 }
-.desarrollo img {
-    width: 60px;
-}
-.general {
-    background-color: #0054A0;
-    width: 500px;
-}
-.general h2 {
-    color: white;
-}
-.desarrollo {
+.row-icono {
     display: flex;
-    justify-content: left;
+    justify-content: start;
     align-items: center;
-    padding-top: 30px;
 }
-.desarrollo p {
+.row-icono img {
+    width: 80px;
     padding: 10px;
 }
+
 
 /*FOOTER*/
 @media (min-width: 768px) {
