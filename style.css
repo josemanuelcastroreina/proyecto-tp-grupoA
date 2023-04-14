@@ -9,20 +9,17 @@
 /*Scroll suave*/
 html {
     scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1, h2 {
-    font-family: 'Roboto', sans-serif;
     color: #0054A0;
     text-align: center;
 }
-p {
-    font-size: 1rem;
-}
 
-p {
-    font-family: 'Roboto Slab', serif;
+p { 
     font-size: 1rem;
+    text-align: center;
 }
 
 img {
@@ -30,7 +27,7 @@ img {
 }
 
 section, footer {
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 /* HEADER*/
@@ -40,27 +37,25 @@ section, footer {
 }
 
 .row {
-    align-items: center;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     background-color: #0054A0;
+    padding: 10px;
 }
-
+@media (min-width: 768px) {
+    .row {
+        flex-direction: row;
+    }
+}
 .logo img {
     width: 20rem;
     background-color: white;
     padding: 10px;
 }
-
-
-@media (min-width: 768px) {
-    .navegacion-principal ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
+.navegacion-principal ul {
+    display: flex;
 }
-
 .navegacion-principal a {
     padding: 10px;
     font-size: 1rem;
@@ -84,11 +79,6 @@ section, footer {
 /*SECCIÓN AGRICOLAS*/
 
 /*SUCURSALES*/
-@media (min-width: 768px) {
-    .imagenes-fotos {
-        display: flex;
-    }
-}
 
 .seguros {
     display: flex;
@@ -100,18 +90,38 @@ section, footer {
     width: 50px;
 }
 .parrafo-desarrollo {
-    text-align: center;
     padding-top: 10px;
 }
+
+.imagenes-fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (min-width: 768px) {
+    .imagenes-fotos {
+        flex-direction: row;
+        
+    }
+}
+
+
+
 
 /*SECCIÓN CONTACTOS*/
 .contacto {
     display: flex;
-    justify-content: flex-start;
-    gap: 10rem;
+    flex-direction: column;   
     align-items: center;
-    padding-top: 10px;
 }
+
+@media (min-width: 768px) {
+    .contacto {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
 .contactanos img {
     width: 450px;   
 }
@@ -127,20 +137,17 @@ section, footer {
 
 
 /*FOOTER*/
-@media (min-width: 768px) {
-    .tag, .redes {
-        display: flex;
-        justify-content: space-between;
-        font-size: 1rem;
-    }
-}
+
 .tag {
-    align-items: center;
-}
-.red-social, .footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+@media (min-width: 768px) {
+    .tag {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 .pie {
@@ -148,17 +155,10 @@ section, footer {
     color: white;
 }
 
-footer p {
-    text-align: center;
-    font-size: 1.3rem;
-}
-
-@media (min-width: 768px) {
-    .parrafo-fin {
-        background-color: #1f4f7b;
-        color: white;
-        padding-bottom: 10px;
-    }
+.parrafo-fin {
+    background-color: #1f4f7b;
+    color: white;
+    padding-bottom: 10px;
 }
 
 .footer-logo {
