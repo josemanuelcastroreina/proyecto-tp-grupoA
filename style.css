@@ -14,8 +14,7 @@ html {
 
 h1, h2 {
     color: #0054A0;
-    font-size: 2rem; 
-    padding-top: 10px;
+    font-size: 1.5rem; 
     text-align: center;
 }
 
@@ -26,7 +25,7 @@ p {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
 }
 section, footer {
     padding: 10px 0;
@@ -66,14 +65,6 @@ section, footer {
 }
 
 /*MAIN*/
-.seguros img {
-    width: 60px;
-}
-.seguros {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
 
 /*SECCIÓN VEHICULOS*/
 
@@ -97,29 +88,22 @@ section, footer {
     align-items: center;
     gap: 1rem;
 }
+
 .seguros img {
     width: 50px;
 }
+
 .parrafo-desarrollo {
-    text-align: center;
     padding-top: 10px;
 }
 
-.imagenes-fotos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-@media (min-width: 800px) {
+@media (min-width: 768px) {
     .imagenes-fotos {
-        flex-direction: row;
+        display: flex;
         justify-content: space-between;
-        
+        align-items: center; 
     }
 }
-
-
-
 
 /*SECCIÓN CONTACTOS*/
 .contacto {
