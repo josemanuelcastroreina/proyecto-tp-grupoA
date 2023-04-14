@@ -45,7 +45,7 @@ section, footer {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    background-color: #0054A0;
+    background-color: white;
 }
 .logo img {
     max-width: 20rem;
@@ -56,6 +56,12 @@ section, footer {
 .row {
     display: flex;
     flex-direction: column;
+    box-shadow: 1px 1px 10px #1f4f7b;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%
 }
 
 @media (min-width: 768px) {
@@ -78,12 +84,15 @@ section, footer {
 }
 
 .navegacion-principal a {
-    color: white;
-    padding: 10px;
+    color: #1f4f7b;
+    padding: 15px 5px;
+    display: block;
+    transition:all 0.4s linear; /*el efecto del botón se hace más lento*/
 }
 
 .navegacion-principal a:hover {
     color: #4BC9E8;
+    background: #1f4f7b
 }
  
 /*MAIN*/
