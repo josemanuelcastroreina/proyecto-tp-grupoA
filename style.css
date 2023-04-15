@@ -141,7 +141,7 @@ section, footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 60px;
+    gap: 10rem;
 }
 @media (min-width: 768px) {
     .contacto {
@@ -170,7 +170,9 @@ section, footer {
     align-items: center;
     padding: 10px;
 }
-
+.row-icono p {
+    padding-left: 20px;
+}
 /*FOOTER*/
 
 .tag {
