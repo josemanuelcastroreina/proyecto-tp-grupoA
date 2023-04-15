@@ -146,7 +146,7 @@ section, footer {
 @media (min-width: 768px) {
     .contacto {
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: space-between;
     }
 }
 .general {
@@ -166,7 +166,7 @@ section, footer {
 }
 .row-icono {
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
 }
