@@ -132,8 +132,18 @@ section, footer {
     .imagenes-fotos {
         display: flex;
         justify-content: space-between;  
-       
     }
+}
+
+.cotizador {
+    display: flex;
+    justify-content: space-between;
+}
+.cotizador-contacto img {
+    
+}
+.formulario {
+
 }
 
 /*SECCIÓN CONTACTOS*/
