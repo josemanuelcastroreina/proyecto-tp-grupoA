@@ -26,11 +26,12 @@ p {
     text-align: center;
 }
 
-img {
-    width: 100%;
-}
 section, footer {
     padding: 10px 0;
+}
+
+.imagen img {
+    width: 100%;
 }
 
 /* HEADER*/
@@ -95,6 +96,10 @@ section, footer {
     background: #1f4f7b
 }
  
+.imagen-heding img {
+    width: 100%;
+}
+
 /*MAIN*/
 
 /*SECCIÓN VEHICULOS*/
