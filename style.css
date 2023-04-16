@@ -99,6 +99,9 @@ section, footer {
     width: 100%;
 }
 
+.pie a {
+    color:black;
+}
 /*MAIN*/
 
 /*SECCIÓN VEHICULOS*/
