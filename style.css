@@ -211,7 +211,8 @@ section, footer {
 }
 
 .parrafo-fin {
-    background-color:blue;
+    background-color:#0054A0;
     color:white;
     padding-bottom: 10px;
+    align-items: center;
 }
