@@ -127,8 +127,7 @@ section, footer {
 @media (min-width: 768px) {
     .imagenes-fotos {
         display: flex;
-        justify-content: space-between;
-       
+        justify-content: space-between;     
     }
 }
 
