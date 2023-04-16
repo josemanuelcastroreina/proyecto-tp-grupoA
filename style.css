@@ -206,12 +206,12 @@ section, footer {
 }
 
 .pie {
-    background-color: #0054A0;
-    color: white;
+    background-color:white;
+    color: black;
 }
 
 .parrafo-fin {
-    background-color: #1f4f7b;
-    color: white;
+    background-color:blue;
+    color:white;
     padding-bottom: 10px;
 }
