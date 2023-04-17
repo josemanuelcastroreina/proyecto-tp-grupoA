@@ -138,7 +138,7 @@ section, footer {
     background-color: #fff;
     border-radius: 5px;
     padding: 20px;
-    box-shadow: 0 0 10px #0054A0;
+    box-shadow: 0 0 5px #0054A0;
 }
   
 .floating-form label {
@@ -153,26 +153,32 @@ section, footer {
     border: 2px solid #0054A0;
     border-radius: 3px;
     margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
   
 .floating-form button[type="submit"] {
     background-color: #0054A0;
     color: #fff;
-    padding: 13px 120px;
+    padding: 12px 100px;
     margin-top: 5px;
     border: none;
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: bold;
 }
   
 .floating-form button[type="submit"]:hover {
-    background-color: #1f4f7b;
-    color: #4BC9E8;
+    background-color:#4BC9E8;
+    color: #0054A0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .cotizador {
     display: flex;
     justify-content: space-between;
-    padding-top: 60px;
+    padding-top: 100px;
 }
 
 
