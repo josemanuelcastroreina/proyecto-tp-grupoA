@@ -55,19 +55,21 @@ section, footer {
 .logo img {
     max-width: 20rem;
     background-color: white;
+    padding-top: 5px;
 }
 
 @media (min-width: 768px) {
     .row{
         flex-direction: row;
-        padding-right: 10px;
+        padding-right: 100px;
+        padding-left: 100px;
     }
 }
 .navegacion-principal ul {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    margin: 10px;
+    margin: 0px;
 }
 
 @media (min-width: 768px) {
@@ -77,19 +79,20 @@ section, footer {
 }
 
 .navegacion-principal a {
-    color: #1f4f7b;
-    padding: 15px 5px;
+    color: #0054A0;
+    padding: 20px 5px;
     display: block;
-    transition:all 0.4s linear; /*el efecto del botón se hace más lento*/
+    transition:all 0.4s linear;
 }
 
 .navegacion-principal a:hover {
     color: #4BC9E8;
-    background: #1f4f7b
+    background: #0054A0;
 }
  
 .imagen-heding img {
     width: 100%;
+    padding-bottom: 50px;
 }
 
 .pie a {
@@ -136,10 +139,10 @@ section, footer {
     justify-content: space-between;
 }
 .cotizador-contacto img {
-    
+    padding-top: 0;
 }
 .formulario {
-
+    padding-top: 0;
 }
 
 /*SECCIÓN CONTACTOS*/
@@ -148,7 +151,9 @@ section, footer {
     flex-direction: column;
     align-items: center;
     gap: 50px;
+    padding-top: 50px;
 }
+
 @media (min-width: 768px) {
     .contacto {
         flex-direction: row;
