@@ -134,16 +134,47 @@ section, footer {
     }
 }
 
+.floating-form {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px #0054A0;
+}
+  
+.floating-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+  
+.floating-form input,
+.floating-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #0054A0;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+  
+.floating-form button[type="submit"] {
+    background-color: #0054A0;
+    color: #fff;
+    padding: 13px 120px;
+    margin-top: 5px;
+    border: none;
+    cursor: pointer;
+}
+  
+.floating-form button[type="submit"]:hover {
+    background-color: #1f4f7b;
+    color: #4BC9E8;
+}
+
 .cotizador {
     display: flex;
     justify-content: space-between;
+    padding-top: 60px;
 }
-.cotizador-contacto img {
-    padding-top: 0;
-}
-.formulario {
-    padding-top: 0;
-}
+
 
 /*SECCIÓN CONTACTOS*/
 .contacto {

@@ -119,60 +119,34 @@
                 <img src="imagenes/Auto.png" alt="Auto cotizador">   
             </div>
             
-            <form class="formulario">
-                <fieldset>
-                    <legend>Completa con tus datos del vehiculo para cotizar</legend>
+            <div class="formulario">
+                <form class="floating-form">
+                    <label for="name">Patente:</label>
+                    <input type="text" id="name" name="name" required>
 
-                    <div class="contenedor-campos">
-                        <div class="campo">
-                            <label>Patente del vehiculo</label>
-                            <input class="input-text" type="text" placeholder="PATENTE">
-                        </div>
+                    <label for="name">Modelo:</label>
+                    <input type="text" id="name" name="name" required>
 
-                        <div class="campo">
-                            <label>Modelo</label>
-                            <input class="input-text" type="text" placeholder="MODELO">
-                        </div>
+                    <label for="name">Año:</label>
+                    <input type="text" id="name" name="name" required>
+                           
+                    <label for="phone">Localidad:</label>
+                    <input type="tel" id="phone" name="phone" required>
+ 
+                    <label for="phone">Teléfono:</label>
+                    <input type="tel" id="phone" name="phone" required>
 
-                        <div class="campo">
-                            <label>Año</label>
-                            <input class="input-text" type="text" placeholder="AÑO">
-                        </div>
-                        
-                        <div class="campo">
-                            <label>Tiene GNC</label>
-                            <input class="input-text" type="text" placeholder="SI O NO">
-                        </div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
 
-                        <div class="campo">
-                            <label>Código postal o nombre de la localidad</label>
-                            <input class="input-text" type="text" placeholder="LOCALIDAD">
-                        <div>
-
-                        <div class="campo">
-                            <label>Teléfono</label>
-                            <input class="input-text" type="tel" placeholder="TELÉFONO">
-                        </div>
-
-                        <div class="campo">
-                            <label>Correo electrónico</label>
-                            <input class="input-text" type="email" placeholder="EMAIL">
-                        </div>
-                        
-                    </div> 
-
-                    <div class="alinear-derecha flex">
-                        <input class="boton w-sm-100" type="submit" onclick="enviar" value="Enviar">
-                    </div>
-                </fieldset>
-            </form>
-            
+                    <button type="submit">Enviar</button>
+                </form>
+              </div>     
         </section>
 
         <section class="mapa imagen" id="sucursales">  
             <img src="imagenes/Mapa.png" alt="Mapa con las Sucursales">
         </section>
-
 
         <section class="imagenes-fotos"> 
             
