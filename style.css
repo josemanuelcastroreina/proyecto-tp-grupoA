@@ -8,7 +8,6 @@
 
 /*Scroll suave*/
 
-
 html {
     scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
@@ -34,7 +33,6 @@ section, footer {
     width: 100%;
 }
 
-/* HEADER*/
 .contenedor {
     max-width: 1200px;
     margin: 0 auto;
@@ -98,23 +96,6 @@ section, footer {
 .pie a {
     color:black;
 }
-/*MAIN*/
-
-/*SECCIÓN VEHICULOS*/
-
-
-
-/*SECCIÓN PERSONAS*/
-
-
-
-/*SECCIÓN HOGARES*/
-
-
-
-/*SECCIÓN AGRICOLAS*/
-
-/*SUCURSALES*/
 
 .seguros {
     display: flex;
@@ -178,9 +159,9 @@ section, footer {
 .cotizador {
     display: flex;
     justify-content: space-between;
+    padding-top: 100px;
 }
 
-/*SECCIÓN CONTACTOS*/
 .contacto {
     display: flex;
     flex-direction: column;
@@ -227,7 +208,6 @@ section, footer {
 .row-icono p {
     padding-left: 20px;
 }
-/*FOOTER*/
 
 .tag {
     display: flex;
