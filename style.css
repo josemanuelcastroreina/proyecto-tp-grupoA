@@ -44,24 +44,17 @@ section, footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    display: flex;
-    justify-content: space-between;
     background-color: white;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px #1f4f7b;
+    position: fixed;
+    width: 100%;
+    padding-left: 40px;
 }
+
 .logo img {
     max-width: 20rem;
     background-color: white;
-}
-
-.row {
-    display: flex;
-    flex-direction: column;
-    box-shadow: 1px 1px 10px #1f4f7b;
-    align-items: center;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%
 }
 
 @media (min-width: 768px) {
