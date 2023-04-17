@@ -119,102 +119,67 @@
                 <img src="imagenes/Auto.png" alt="Auto cotizador">   
             </div>
             
-            <form class="formulario">
-                <fieldset>
-                    <legend>Completa con tus datos del vehiculo para cotizar</legend>
+            <div class="formulario">
+                <form class="floating-form">
+                    <label for="name">Patente:</label>
+                    <input type="text" id="name" name="name" required>
 
-                    <div class="contenedor-campos">
-                        <div class="campo">
-                            <label>Patente del vehiculo</label>
-                            <input class="input-text" type="text" placeholder="PATENTE">
-                        </div>
+                    <label for="name">Modelo:</label>
+                    <input type="text" id="name" name="name" required>
 
-                        <div class="campo">
-                            <label>Modelo</label>
-                            <input class="input-text" type="text" placeholder="MODELO">
-                        </div>
+                    <label for="name">Año:</label>
+                    <input type="text" id="name" name="name" required>
+                           
+                    <label for="phone">Localidad:</label>
+                    <input type="tel" id="phone" name="phone" required>
+ 
+                    <label for="phone">Teléfono:</label>
+                    <input type="tel" id="phone" name="phone" required>
 
-                        <div class="campo">
-                            <label>Año</label>
-                            <input class="input-text" type="text" placeholder="AÑO">
-                        </div>
-                        
-                        <div class="campo">
-                            <label>Tiene GNC</label>
-                            <input class="input-text" type="text" placeholder="SI O NO">
-                        </div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
 
-                        <div class="campo">
-                            <label>Código postal o nombre de la localidad</label>
-                            <input class="input-text" type="text" placeholder="LOCALIDAD">
-                        <div>
-
-                        <div class="campo">
-                            <label>Teléfono</label>
-                            <input class="input-text" type="tel" placeholder="TELÉFONO">
-                        </div>
-
-                        <div class="campo">
-                            <label>Correo electrónico</label>
-                            <input class="input-text" type="email" placeholder="EMAIL">
-                        </div>
-                        
-                    </div> 
-
-                    <div class="alinear-derecha flex">
-                        <input class="boton w-sm-100" type="submit" onclick="enviar" value="Enviar">
-                    </div>
-                </fieldset>
-            </form>
-            
+                    <button type="submit">Enviar</button>
+                </form>
+              </div>     
         </section>
 
         <section class="mapa imagen" id="sucursales">  
             <img src="imagenes/Mapa.png" alt="Mapa con las Sucursales">
         </section>
 
-        <section>
-            <div class="seguros">
-                <img src="imagenes/IsoTAG.png" alt="">
-                <h2> Nuestras Sucursales</h2> 
-            </div>
-            <div class="parrafo-desarrollo">
-                <p>Acercate a tu sucursal más cercana y descubrí <br>
-                    las coberturas y servicios que tenemos para vos.
-                </p>
-            </div>
-        </section>
-
         <section class="imagenes-fotos"> 
             
             <aside class="integrantes">
                 <h2>01 CORDOBA</h2>
+                <img src="imagenes/Greco.png" alt="Greco">
+                <p>JUAN GRECO<br>Asesor de Seguros</p>
                 <p>Av. Figma 1921 S.A de Arredondo</p>
                 <p>greco@tag.com.ar</p>
-                <img src="imagenes/Greco.png" alt="Greco">
-                <p>Juan Greco | Asesor de Seguros</p>
             </aside>
+
             <aside class="integrantes">
-                <h2>02 SAN LUIS</h2>
+                <h2>02 SAN LUIS</h2>  
+                <img src="imagenes/Guille.png" alt="Guille">
+                <p>GUILLERMO PEROTTI<br>Asesor de Seguros</p>
                 <p>Av. Bootstrap 174 Villa Merlo</p>
                 <p>guille@tag.com.ar</p>
-                <img src="imagenes/Guille.png" alt="Guille">
-                <p>Guillermo Perotti | Asesor de Seguros</p>
             </aside>
         
             <aside class="integrantes">
                 <h2>03 BS.AS</h2>
+                <img src="imagenes/Victor.png" alt="Victor">
+                <p>VICTOR BORDA<br>Asesor de Seguros</p>
                 <p>Av. JavaScript 254 Gral. Villegas</p>
                 <p>victor@tag.com.ar</p>
-                <img src="imagenes/Victor.png" alt="Victor">
-                <p>Victor Vorda | Asesor de Seguros</p>
             </aside>
+           
             <aside class="integrantes">
-                <h2>04 CABA</h2>
+                <h2>04 CABA</h2>               
+                <img src="imagenes/Manuel.png" alt="José">
+                <p>JOSE CASTRO<br>Asesor de Seguros</p>
                 <p>Av. GitHub 15202 Barracas</p>
                 <p>manu@tag.com.ar</p>
-                <img src="imagenes/Manuel.png" alt="José">
-                <p>José Castro | Asesor de Seguros</p>
             </aside>
 
         </section> 
@@ -275,7 +240,7 @@
                 </div>
                 <div>
                     <p>N° de inscripción de SSN 000 <br>
-                    <a href="https://www.argentina.gob.ar/" target="_blank">www.argentina.gob.ar/ssn</a>
+                    <a href="https://www.argentina.gob.ar/superintendencia-de-seguros" target="_blank">www.argentina.gob.ar/ssn</a>
                     </p>
                 </div>
                 <div>
