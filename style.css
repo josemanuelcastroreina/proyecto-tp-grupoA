@@ -52,20 +52,18 @@ section, footer {
 
 .logo img {
     max-width: 20rem;
-    background-color: white;
     padding-top: 5px;
 }
 
 @media (min-width: 768px) {
     .row{
         flex-direction: row;
-        padding-right: 100px;
-        padding-left: 100px;
     }
 }
 .navegacion-principal ul {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 0.5rem;
     margin: 0px;
 }
@@ -73,12 +71,12 @@ section, footer {
 @media (min-width: 768px) {
     .navegacion-principal ul {
         flex-direction: row;
+        padding: 20px 5px;
     }
 }
 
 .navegacion-principal a {
     color: #0054A0;
-    padding: 20px 5px;
     display: block;
     transition:all 0.4s linear;
 }
@@ -112,6 +110,7 @@ section, footer {
     .imagenes-fotos {
         display: flex;
         justify-content: space-between;  
+        align-items: center;
     }
 }
 
@@ -159,7 +158,18 @@ section, footer {
 .cotizador {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     padding-top: 100px;
+}
+
+@media (min-width: 768px) {
+    .cotizador {
+        flex-direction: row;
+    }
+}
+
+.imagen-cotizador {
+    width: 100%;
 }
 
 .contacto {
